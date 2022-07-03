@@ -9,7 +9,7 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://telegra.ph/file/764705778ddb95fc06a99.jpg",
-                caption=(f"""**Salam {message.from_user.mention} 🎵\nMən {bot}!\nSəsli sohbətlərdə mahnı oxuya bilən botam. Ban yetkisiz, Səsli söhbətləri idarə yetkisi verip, Asistanı gruba atın zəhmət olmasa.\n\nDüzen Tasarım [Trend Müzik 🎙️](https://t.me/Alay57Chat).**"""),
+                caption=(f"""**Salam {message.from_user.mention} 🎵\nMən {bot}!\nSəsli sohbətlərdə mahnı oxuya bilən botam. Ban yetkisiz, Səsli söhbətləri idarə yetkisi verip, Asistanı gruba atın zəhmət olmasa.\n\nDüzen Tasarım [Trend Müzik 🎙️](https://t.me/TheTrendDestek).**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -22,7 +22,7 @@ async def start(_, message: Message):
                         "🔊 Asistan", url="https://t.me/TrendMusicAsistan"
                     ),
                     InlineKeyboardButton(
-                        "💬 Sohbət", url="https://t.me/Alay57Chat"
+                        "💬 Sohbət", url="https://t.me/TheTrendDestek"
                     )
                 ],
                 [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🧩 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇦🇿", url=f"https://t.me/Alay57Resmi"
+                        "Resmi Kanal 🇦🇿", url=f"https://t.me/TheTrendSup"
                     )
                 ]
                 
@@ -139,7 +139,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🔊 Asistan", url="https://t.me/TrendMusicAsistan"
                     ),
                     InlineKeyboardButton(
-                        "💬 Sohbət", url="https://t.me/Alay57Chat"
+                        "💬 Sohbət", url="https://t.me/TheTrendDestek"
                     )
                 ],
                 [
@@ -147,7 +147,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🌀 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇦🇿", url=f"https://t.me/Alay57Resmi"
+                        "Resmi Kanal 🇦🇿", url=f"https://t.me/TheTrendSup"
                     )
                 ]
                 
