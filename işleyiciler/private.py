@@ -14,7 +14,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/MusicoLCroBot?startgroup=true"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/.https://t.me/TrendMus1cBot?startgroup=true"
                     )
                 ],
                 [
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "Ana menü🏠", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "⚙ Qurucu", url="https://t.me/s1yahımsın")
+                         "⚙ Qurucu", url="https://t.me/Y4KUPH")
                  ]
              ]
          )
@@ -82,7 +82,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "⚙ Qurucu", url="https://t.me/s1yahımsın")
+            "⚙ Qurucu", url="https://t.me/Y4KUPH")
         ]
       ]
      ))
@@ -95,7 +95,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Qurucu", url="https://t.me/s1yahımsın")
+                         "⚙ Qurucu", url="https://t.me/Y4KUPH")
                  ],
                  [
                      InlineKeyboardButton(
@@ -113,7 +113,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Qurucu", url="https://t.me/s1yahımsın")
+                         "⚙ Qurucu", url="https://t.me/Y4KUPH")
                  ],
                  [
                      InlineKeyboardButton(
@@ -131,7 +131,7 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/MusicoLCroBot?startgroup=true"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/TrendMus1cBot?startgroup=true"
                     )
                 ],
                 [
